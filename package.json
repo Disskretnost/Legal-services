@@ -1,0 +1,33 @@
+{
+  "name": "legal-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack --config webpack.config.js"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Disskretnost/Legal-services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Disskretnost/Legal-services/issues"
+  },
+  "homepage": "https://github.com/Disskretnost/Legal-services#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
+    "serve": "^14.2.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
